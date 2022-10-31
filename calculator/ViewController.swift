@@ -24,6 +24,7 @@ class ViewController: UIViewController {
     var option : Bool = false
     //comment
     //another comment
+    //second comment
     
     override func viewDidLoad() {
         super.viewDidLoad()
