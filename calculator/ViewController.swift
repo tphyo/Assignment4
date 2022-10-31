@@ -25,7 +25,6 @@ class ViewController: UIViewController {
     //comment
     //another comment
     //second comment
-    //third comment
     
     override func viewDidLoad() {
         super.viewDidLoad()
