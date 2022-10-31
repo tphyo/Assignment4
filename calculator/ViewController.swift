@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     var divisionOption : Bool = false
     var option : Bool = false
     //comment
+    //another comment
     
     override func viewDidLoad() {
         super.viewDidLoad()
