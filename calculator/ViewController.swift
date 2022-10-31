@@ -197,7 +197,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func pointAction(_ sender: Any) {
-        numberLabel.text! += "."
+        let dotCount = numberLabel.text!.components(separatedBy: ".").count - 1
+        if dotCount == 0{
+            numberLabel.text! += "."
+        }
         forPoint = true
     }
     
