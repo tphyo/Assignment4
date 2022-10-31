@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     var multiplyOption : Bool = false
     var divisionOption : Bool = false
     var option : Bool = false
+    //comment
     
     override func viewDidLoad() {
         super.viewDidLoad()
