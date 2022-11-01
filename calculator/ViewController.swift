@@ -203,10 +203,10 @@ class ViewController: UIViewController {
         
         forPoint = true
         
-        if oldNumber != 0 {
-            numberLabel.text! = "0."
-            option = true
-        }
+//        if oldNumber != 0 {
+//            numberLabel.text! = "0."
+//            option = true
+//        }
     }
     
     @IBAction func divisionAction(_ sender: Any) {
