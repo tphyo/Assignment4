@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  calculator
+//  Calculator
 //
 //  Created by Thet Hlaing Phyo on 10/28/22.
 //
