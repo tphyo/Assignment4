@@ -35,7 +35,7 @@ class ViewController: UIViewController {
     
     @IBAction func negativeAction(_ sender: Any) {
         numberOnScreen = -numberOnScreen
-
+        
         if(numberOnScreen.remainder(dividingBy: 1) == 0) {
             if numberOnScreen == -0.0
             {
@@ -76,6 +76,7 @@ class ViewController: UIViewController {
         else {
             numberLabel.text! += "1"
             numberOnScreen = Double(numberLabel.text!)!
+            print(numberOnScreen)
         }
         
     }
@@ -201,7 +202,13 @@ class ViewController: UIViewController {
         if dotCount == 0 {
             numberLabel.text! += "."
         }
+        
         forPoint = true
+        
+        if oldNumber != 0 {
+            numberLabel.text! = "0."
+            option = true
+        }
     }
     
     @IBAction func divisionAction(_ sender: Any) {
@@ -287,6 +294,7 @@ class ViewController: UIViewController {
         forAddingMore = false
         additionOption = true
         option = false
+        print(oldNumber)
         
     }
     
