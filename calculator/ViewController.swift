@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     var numberOnScreen : Double = 0
     var oldNumber : Double = 0
     var operation : Int = 0
-    var result : Double = 0
     var forPoint : Bool = false
     var forAddingMore : Bool = false
     var additionOption : Bool = false
