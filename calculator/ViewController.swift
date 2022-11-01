@@ -75,7 +75,6 @@ class ViewController: UIViewController {
         else {
             numberLabel.text! += "1"
             numberOnScreen = Double(numberLabel.text!)!
-            print(numberOnScreen)
         }
         
     }
@@ -293,8 +292,6 @@ class ViewController: UIViewController {
         forAddingMore = false
         additionOption = true
         option = false
-        print(oldNumber)
-        
     }
     
     @IBAction func equalAction(_ sender: Any) {
