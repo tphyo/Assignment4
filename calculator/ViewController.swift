@@ -199,14 +199,15 @@ class ViewController: UIViewController {
         let dotCount = numberLabel.text!.components(separatedBy: ".").count - 1
         if dotCount == 0 {
             numberLabel.text! += "."
+            option = true
         }
         
         forPoint = true
         
-//        if oldNumber != 0 {
-//            numberLabel.text! = "0."
-//            option = true
-//        }
+        if oldNumber != 0 && !option{
+            numberLabel.text! = "0."
+            option = true
+        }
     }
     
     @IBAction func divisionAction(_ sender: Any) {
